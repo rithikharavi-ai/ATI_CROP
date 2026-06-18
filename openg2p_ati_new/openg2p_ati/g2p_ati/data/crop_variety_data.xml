@@ -1,0 +1,1088 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo noupdate="1">
+    <record id="crop_variety_adzuki" model="g2p.crop.variety">
+        <field name="name">Adzuki - bean Japan (Keyo)</field>
+        <field name="code">Adzuki</field>
+        <field name="crop_id" ref="adzuki_bean"/>
+    </record>
+    <record id="crop_variety_erimo" model="g2p.crop.variety">
+        <field name="name">Erimo (Adzuki bean)</field>
+        <field name="code">Erimo</field>
+        <field name="crop_id" ref="adzuki_bean"/>
+    </record>
+    <record id="crop_variety_alfalfa_supersonic" model="g2p.crop.variety">
+        <field name="name">Alfalfa - Supersonic</field>
+        <field name="code">alfalfa-supersonic</field>
+        <field name="crop_id" ref="alfalfa"/>
+    </record>
+    <record id="crop_variety_avocado" model="g2p.crop.variety">
+        <field name="name">Avocado-AL1</field>
+        <field name="code">avocado</field>
+        <field name="crop_id" ref="avocado"/>
+    </record>
+    <record id="crop_variety_avocado_choquette" model="g2p.crop.variety">
+        <field name="name">Avocado-Choquette</field>
+        <field name="code">avocado-choquette</field>
+        <field name="crop_id" ref="avocado"/>
+    </record>
+    <record id="crop_variety_banana_dinkua_1" model="g2p.crop.variety">
+        <field name="name">Banana-Dinkua-1</field>
+        <field name="code">banana-dinkua-1</field>
+        <field name="crop_id" ref="banana"/>
+    </record>
+    <record id="crop_variety_banana_ladyfinger" model="g2p.crop.variety">
+        <field name="name">Banana-Lady Finger</field>
+        <field name="code">banana-ladyfinger</field>
+        <field name="crop_id" ref="banana"/>
+    </record>
+    <record id="crop_variety_brachiaria_brizantha_cvxaraes_xaraes" model="g2p.crop.variety">
+        <field name="name">Brachiaria brizantha cv.Xaraes - Xaraes</field>
+        <field name="code">brachiaria_brizantha_cv.xaraes-xaraes</field>
+        <field name="crop_id" ref="brachiaria_brizantha_cv"/>
+    </record>
+    <record id="crop_variety_breadwheat_mandoyuworrakatta/pastor" model="g2p.crop.variety">
+        <field name="name">Bread Wheat - Mandoyu (Worrakatta/Pastor)</field>
+        <field name="code">breadwheat-mandoyu(worrakatta/pastor)</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_bread_wheat_nejmah_14" model="g2p.crop.variety">
+        <field name="name">Bread Wheat -NEJMAH-14</field>
+        <field name="code">bread_wheat-nejmah-14</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_bread_wheat_mijuetbw7082" model="g2p.crop.variety">
+        <field name="name">Bread Wheat -MIJU (ETBW7082)</field>
+        <field name="code">bread_wheat-miju(etbw7082)</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_bread_wheat_k_6290_bulk" model="g2p.crop.variety">
+        <field name="name">Bread Wheat -K 6290 bulk</field>
+        <field name="code">bread_wheat-k_6290_bulk</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_bread_wheat_hachalueetb_8260" model="g2p.crop.variety">
+        <field name="name">Bread Wheat -Hachalu (ETB 8260)</field>
+        <field name="code">bread_wheat-hachalu(Eetb 8260)</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_bread_wheat_warkaye" model="g2p.crop.variety">
+        <field name="name">Bread Wheat - Warkaye</field>
+        <field name="code">bread_wheat-warkaye</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_bread_wheat_wane_etbw" model="g2p.crop.variety">
+        <field name="name">Bread Wheat - WANE (ETBW)</field>
+        <field name="code">bread_wheat-wane_(etbw)</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_bread_wheat_tsehay/har3837/" model="g2p.crop.variety">
+        <field name="name">Bread Wheat - Tsehay/HAR3837/</field>
+        <field name="code">bread_wheat-tsehay/har3837/</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_bread_wheat_sulla" model="g2p.crop.variety">
+        <field name="name">Bread Wheat - Sulla</field>
+        <field name="code">bread_wheat-sulla</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_bread_wheat_sorravorobeycmss96y02555_040y_020m" model="g2p.crop.variety">
+        <field name="name">Bread Wheat - Sorra (Vorobeycmss96Y02555-040y-020m)</field>
+        <field name="code">bread_wheat-sorra(vorobeycmss96Y02555-040y-020m)</field>
+        <field name="crop_id" ref="bread_wheat"/>
+    </record>
+    <record id="crop_variety_broccoli_vicario_rz" model="g2p.crop.variety">
+        <field name="name">Broccoli - Vicario RZ</field>
+        <field name="code">broccoli-vicario_rz</field>
+        <field name="crop_id" ref="broccoli"/>
+    </record>
+    <record id="crop_variety_buck_wheat_shashe_japan" model="g2p.crop.variety">
+        <field name="name">Buck wheat - Shashe (Japan)</field>
+        <field name="code">buck_wheat-shashe_(japan)</field>
+        <field name="crop_id" ref="buck_wheat"/>
+    </record>
+    <record id="crop_variety_cabbage_cheers_f1" model="g2p.crop.variety">
+        <field name="name">Cabbage - Cheers F1</field>
+        <field name="code">cabbage-cheers_f1</field>
+        <field name="crop_id" ref="cabbage"/>
+    </record>
+    <record id="crop_variety_cabbage_chaka" model="g2p.crop.variety">
+        <field name="name">Cabbage - CHAKA</field>
+        <field name="code">cabbage-chaka</field>
+        <field name="crop_id" ref="cabbage"/>
+    </record>
+    <record id="crop_variety_cabbage_cabbice" model="g2p.crop.variety">
+        <field name="name">Cabbage - CABBICE</field>
+        <field name="code">cabbage-cabbice</field>
+        <field name="crop_id" ref="cabbage"/>
+    </record>
+    <record id="crop_variety_cacao_cacao_theobroma_cacao" model="g2p.crop.variety">
+        <field name="name">Cacao - Cacao (Theobroma cacao)</field>
+        <field name="code">cacao-cacao_(theobroma_cacao)</field>
+        <field name="crop_id" ref="cacao"/>
+    </record>
+    <record id="crop_variety_carrot_brillyance_f1" model="g2p.crop.variety">
+        <field name="name">Carrot-Brillyance F1</field>
+        <field name="code">carrot-brillyance_f1</field>
+        <field name="crop_id" ref="carrot"/>
+    </record>
+    <record id="crop_variety_cassava_manihot_esculenta_hawassa51708" model="g2p.crop.variety">
+        <field name="name">Cassava (Manihot esculenta)-Hawassa 5 (1708)</field>
+        <field name="code">cassava_(manihot_esculenta)-hawassa5(1708)</field>
+        <field name="crop_id" ref="cassava"/>
+    </record>
+    <record id="crop_variety_cassava_chemereiita_1050127" model="g2p.crop.variety">
+        <field name="name">Cassava - Chemere (IITA 1050127)</field>
+        <field name="code">cassava-chemere(iita_1050127)</field>
+        <field name="crop_id" ref="cassava"/>
+    </record>
+    <record id="crop_variety_cauliflower_chambord_rz" model="g2p.crop.variety">
+        <field name="name">Cauliflower - Chambord RZ</field>
+        <field name="code">cauliflower-chambord_rz</field>
+        <field name="crop_id" ref="cauliflower"/>
+    </record>
+    <record id="crop_variety_chich_pea_mastewal" model="g2p.crop.variety">
+        <field name="name">chich pea mastewal</field>
+        <field name="code">chich_pea_mastewal</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_chick_pea_hewa_x11th_78_7" model="g2p.crop.variety">
+        <field name="name">chick pea-hewa (X11TH-78-7)</field>
+        <field name="code">chick_pea-hewa_(x11th-78-7)</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_chick_pea_teji" model="g2p.crop.variety">
+        <field name="name">chick pea - teji</field>
+        <field name="code">chick_pea-teji</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_chickpea_habiru" model="g2p.crop.variety">
+        <field name="name">Chickpea- Habiru</field>
+        <field name="code">chickpea-habiru</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_chickpea_eshete_dz_2012_ck_0254/iccv_10515/" model="g2p.crop.variety">
+        <field name="name">Chickpea - Eshete (DZ-2012 CK-0254/ICCV-10515/)</field>
+        <field name="code">chickpea-eshete_(dz-2012 ck-0254/ICCV-10515/)</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_chickpea_dhera_dz_2012_ck_009/flip" model="g2p.crop.variety">
+        <field name="name">Chickpea - (Dhera) DZ-2012 CK-009/FLIP</field>
+        <field name="code">Chickpea-(Dhera)-DZ-2012-CK-009/FLIP</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_chickpea_girar_???_iccmabca" model="g2p.crop.variety">
+        <field name="name">Chickpea - (Girar) ??? ICCMABCA</field>
+        <field name="code">chickpea-(Girar) ??? ICCMABCA</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_chickpea_hora_dz_2012_ck_001/flip" model="g2p.crop.variety">
+        <field name="name">Chickpea - (Hora) DZ-2012 CK-001/FLIP</field>
+        <field name="code">chickpea-(Hora)-DZ-2012-CK-001/FLIP</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_chickpea_maritu_???_acc41053" model="g2p.crop.variety">
+        <field name="name">Chickpea - (Maritu) ??? Acc.41053</field>
+        <field name="code">chickpea-(maritu) ??? Acc.41053</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_chickpea_akaki_dz_10_9_2" model="g2p.crop.variety">
+        <field name="name">Chickpea - Akaki (DZ-10-9-2)</field>
+        <field name="code">chickpea-akaki-(DZ-10-9-2)</field>
+        <field name="crop_id" ref="chickpea"/>
+    </record>
+    <record id="crop_variety_ser_125" model="g2p.crop.variety">
+        <field name="name">SER 125</field>
+        <field name="code">ser_125</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_ser_119" model="g2p.crop.variety">
+        <field name="name">SER 119</field>
+        <field name="code">ser-119</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_hawassa_dume" model="g2p.crop.variety">
+        <field name="name">Hawassa Dume</field>
+        <field name="code">hawassa_dume</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_haricot_bean_nasir" model="g2p.crop.variety">
+        <field name="name">Haricot bean- Nasir</field>
+        <field name="code">haricot_bean-nasir</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_haricot_bean_melka_awash_98" model="g2p.crop.variety">
+        <field name="name">Haricot bean- melka awash -98</field>
+        <field name="code">haricot_bean-melka_awash-98</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_haricot_bean_anger_emp_376" model="g2p.crop.variety">
+        <field name="name">Haricot bean- Anger (EMP-376)</field>
+        <field name="code">haricot_bean-anger_(EMP-376)</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_dandesu" model="g2p.crop.variety">
+        <field name="name">Dandesu</field>
+        <field name="code">dandesu</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_common_haricot_bean_labu" model="g2p.crop.variety">
+        <field name="name">Common/haricot/bean - Labu</field>
+        <field name="code">common-haricot-bean-labu</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_common_haricot_bean_key_burre" model="g2p.crop.variety">
+        <field name="name">Common/Haricot bean -Key-Burre</field>
+        <field name="code">common-haricot-bean-Key-Burre</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_common_haricot_bean_key_woliata" model="g2p.crop.variety">
+        <field name="name">Common/haricot bean - Key-Woliata</field>
+        <field name="code">common-haricot-bean-key-woliata</field>
+        <field name="crop_id" ref="common_haricot_bean"/>
+    </record>
+    <record id="crop_variety_coriander_derara_acc_240574_1" model="g2p.crop.variety">
+        <field name="name">Coriander - Derara (Acc. 240574-1)</field>
+        <field name="code">coriander-derara-(Acc. 240574-1)</field>
+        <field name="crop_id" ref="coriander"/>
+    </record>
+    <record id="crop_variety_cotton_jantekel_amibara_i" model="g2p.crop.variety">
+        <field name="name">Cotton-Jantekel (Amibara I)</field>
+        <field name="code">cotton-Jantekel-(Amibara I)</field>
+        <field name="crop_id" ref="cotton"/>
+    </record>
+    <record id="crop_variety_cowpea_keti_it99k_1122" model="g2p.crop.variety">
+        <field name="name">Cowpea - Keti (IT99K-1122)</field>
+        <field name="code">cowpea-keti-(IT99K-1122)</field>
+        <field name="crop_id" ref="cow_pea"/>
+    </record>
+    <record id="crop_variety_cow_pea_hundaol_ilri#25368" model="g2p.crop.variety">
+        <field name="name">cow pea-Hundaol (ILRI#25368)</field>
+        <field name="code">cow-pea-hundaol-(ILRI#25368)</field>
+        <field name="crop_id" ref="cow_pea"/>
+    </record>
+    <record id="crop_variety_cowpea_82d_889" model="g2p.crop.variety">
+        <field name="name">Cowpea - 82D-889</field>
+        <field name="code">cowpea-82D-889</field>
+        <field name="crop_id" ref="cow_pea"/>
+    </record>
+    <record id="crop_variety_cowpea_jergade_nllp_cpc_145_21" model="g2p.crop.variety">
+        <field name="name">Cowpea - Jergade (NLLP_CPC-145-21)</field>
+        <field name="code">cowpea-jergade-(NLLP_CPC-145-21)</field>
+        <field name="crop_id" ref="cow_pea"/>
+    </record>
+    <record id="crop_variety_cowpea_kechene_nllp_cpc_103b" model="g2p.crop.variety">
+        <field name="name">Cowpea - Kechene (NLLP_CPC-103B)</field>
+        <field name="code">cowpea-kechene-(NLLP_CPC-103B)</field>
+        <field name="crop_id" ref="cow_pea"/>
+    </record>
+    <record id="crop_variety_cumin_likie_242840" model="g2p.crop.variety">
+        <field name="name">Cumin - Likie (242840)</field>
+        <field name="code">cumin-likie-(242840)</field>
+        <field name="crop_id" ref="cumin"/>
+    </record>
+    <record id="crop_variety_cumin_urgesa_acc_205167_2" model="g2p.crop.variety">
+        <field name="name">Cumin - Urgesa (Acc. 205167-2)</field>
+        <field name="code">cumin-urgesa-(Acc. 205167-2)</field>
+        <field name="crop_id" ref="cumin"/>
+    </record>
+    <record id="crop_variety_dekoko_raya_2_ta_015/08_sr" model="g2p.crop.variety">
+        <field name="name">Dekoko - RAYA-2 (TA-015/08 Sr)</field>
+        <field name="code">dekoko-raya-2-(TA-015/08 Sr)</field>
+        <field name="crop_id" ref="dekoko"/>
+    </record>
+    <record id="crop_variety_dekoko_raya_1_tk_006/08_al" model="g2p.crop.variety">
+        <field name="name">Dekoko - RAYA-1 (TK-006/08 Al)</field>
+        <field name="code">dekoko-raya-1-(TK-006/08 Al)</field>
+        <field name="crop_id" ref="dekoko"/>
+    </record>
+    <record id="crop_variety_durem_wheat_alemtena_43idsnmeh" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - Alemtena (43IDSNMeh)</field>
+        <field name="code">durem-wheat-alemtena-(43IDSNMeh)</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_durem_wheat_arsi_robe_tob" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - Arsi-Robe (TOB)</field>
+        <field name="code">durem-wheat-arsi-robe-(TOB)</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_durem_wheat_asasa_dz" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - Asasa (DZ)</field>
+        <field name="code">durem-wheat-asasa-(DZ)</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_durem_wheat_bakalcha_980sn" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - Bakalcha (980SN)</field>
+        <field name="code">durem-wheat-bakalcha-(980SN)</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_durem_wheat_bichena_dz" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - Bichena (DZ)</field>
+        <field name="code">durem-wheat-bichena-(DZ)</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_durem_wheat_boohai" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - Boohai</field>
+        <field name="code">durem-wheat-boohai</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_durem_wheat_ejersa_labud/nigeris" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - EJERSA LABUD/NIGERIS</field>
+        <field name="code">durem-wheat-EJERSA-LABUD/NIGERIS</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_durem_wheat_flakit_en_25" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - FLAKIT (EN-25)</field>
+        <field name="code">durem-wheat-FLAKIT-(EN-25)</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_durem_wheat_foka" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - Foka</field>
+        <field name="code">durem-wheat-foka</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_durem_wheat_ginchi_dz_1050" model="g2p.crop.variety">
+        <field name="name">Durem Wheat - Ginchi (DZ-1050)</field>
+        <field name="code">durem-wheat-ginchi-(DZ-1050)</field>
+        <field name="crop_id" ref="durum_wheat"/>
+    </record>
+    <record id="crop_variety_emmer_wheat/aja_haydaroo_sintrial1/dz2212/sinana_01" model="g2p.crop.variety">
+        <field name="name">Emmer wheat/Aja - Haydaroo (Sintrial1/DZ2212/Sinana-01)</field>
+        <field name="code">emmer-wheat/aja-haydaroo-(Sintrial1/DZ2212/Sinana-01)</field>
+        <field name="crop_id" ref="emmer_wheat"/>
+    </record>
+    <record id="crop_variety_emmer_wheat/aja_lammesso_acc_224885_2" model="g2p.crop.variety">
+        <field name="name">Emmer wheat/Aja - Lammesso (ACC-224885-2)</field>
+        <field name="code">emmer-wheat/aja-lammesso-(ACC-224885-2)</field>
+        <field name="crop_id" ref="emmer_wheat"/>
+    </record>
+    <record id="crop_variety_emmer_wheat/aja_sinana_01_acc_?" model="g2p.crop.variety">
+        <field name="name">Emmer wheat/Aja - Sinana-01 (Acc)</field>
+        <field name="code">emmer-wheat/aja-sinana-01 (Acc. ?</field>
+        <field name="crop_id" ref="emmer_wheat"/>
+    </record>
+    <record id="crop_variety_yellow_dodola" model="g2p.crop.variety">
+        <field name="name">Yellow Dodola</field>
+        <field name="code">yellow-dodola</field>
+        <field name="crop_id" ref="ethiopian_mustard"/>
+    </record>
+    <record id="crop_variety_faba_bean_degaga_r_878_3" model="g2p.crop.variety">
+        <field name="name">Faba bean- degaga (R-878-3)</field>
+        <field name="code">faba-bean-degaga-(R-878-3)</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_faba_bean_hachalu" model="g2p.crop.variety">
+        <field name="name">Faba bean- Hachalu</field>
+        <field name="code">faba-bean-hachalu</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_faba_bean_tumsa" model="g2p.crop.variety">
+        <field name="name">Faba bean-Tumsa</field>
+        <field name="code">faba-bean-tumsa</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_faba_bean_obse_eh95073_1" model="g2p.crop.variety">
+        <field name="name">Faba Bean - OBSE (EH95073-1)</field>
+        <field name="code">faba-bean-obse-(EH95073-1)</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_faba_bean_eh011089_3_cherinet" model="g2p.crop.variety">
+        <field name="name">Faba bean - EH011089-3 (Cherinet)</field>
+        <field name="code">faba-bean-EH011089-3-(Cherinet)</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_faba_bean_ek06007_2_besmena" model="g2p.crop.variety">
+        <field name="name">Faba bean - EK06007-2 /Besmena/</field>
+        <field name="code">faba-bean-EK06007-2-Besmena</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_faba_bean_wayu_wayu" model="g2p.crop.variety">
+        <field name="name">Faba Bean - Wayu (Wayu)</field>
+        <field name="code">faba-bean-wayu-(Wayu)</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_faba_bean_alloshe_???" model="g2p.crop.variety">
+        <field name="name">Faba Bean - Alloshe (???)</field>
+        <field name="code">faba-bean-alloshe-(???)</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_faba_bean_angacha_1_tfb_097" model="g2p.crop.variety">
+        <field name="name">Faba bean - Angacha-1 (TFB-097)</field>
+        <field name="code">faba-bean-angacha-1-(TFB-097)</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_faba_bean_ashebeka_????" model="g2p.crop.variety">
+        <field name="name">Faba Bean - ASHEBEKA (????)</field>
+        <field name="code">faba-bean-ASHEBEKA-(????)</field>
+        <field name="crop_id" ref="faba_bean"/>
+    </record>
+    <record id="crop_variety_fenugreek_wereilu_201606/2" model="g2p.crop.variety">
+        <field name="name">Fenugreek - Wereilu (201606/2)</field>
+        <field name="code">fenugreek-wereilu-(201606/2)</field>
+        <field name="crop_id" ref="fenugreek"/>
+    </record>
+    <record id="crop_variety_fenugreek_turu_acc#fg53063" model="g2p.crop.variety">
+        <field name="name">Fenugreek - Turu (Acc#FG53063)</field>
+        <field name="code">fenugreek-turu-(Acc#FG53063)</field>
+        <field name="crop_id" ref="fenugreek"/>
+    </record>
+    <record id="crop_variety_fenugreek_jamma_202169/3" model="g2p.crop.variety">
+        <field name="name">Fenugreek - Jamma (202169/3)</field>
+        <field name="code">fenugreek-jamma-(202169/3)</field>
+        <field name="crop_id" ref="fenugreek"/>
+    </record>
+    <record id="crop_variety_fenugreek_chafe_acc#fg202120" model="g2p.crop.variety">
+        <field name="name">Fenugreek - Chafe (Acc#FG202120)</field>
+        <field name="code">fenugreek-chafe-(Acc#FG202120)</field>
+        <field name="crop_id" ref="fenugreek"/>
+    </record>
+    <record id="crop_variety_fenugreek_burqaa_201617sno3_7" model="g2p.crop.variety">
+        <field name="name">Fenugreek - Burqaa (201617Sno3-7)</field>
+        <field name="code">fenugreek-burqaa-(201617Sno3-7)</field>
+        <field name="crop_id" ref="fenugreek"/>
+    </record>
+    <record id="crop_variety_fenugreek_bishoftu_fg_10" model="g2p.crop.variety">
+        <field name="name">Fenugreek - Bishoftu (FG-10)</field>
+        <field name="code">fenugreek-bishoftu-FG-10)</field>
+        <field name="crop_id" ref="fenugreek"/>
+    </record>
+    <record id="crop_variety_fenugreek_arganne_acc_202209sno3_5" model="g2p.crop.variety">
+        <field name="name">Fenugreek - Arganne (Acc. 202209sno3-5)</field>
+        <field name="code">fenugreek-arganne-(Acc. 202209sno3-5)</field>
+        <field name="crop_id" ref="fenugreek"/>
+    </record>
+    <record id="crop_variety_fiel_pea_etetu_???" model="g2p.crop.variety">
+        <field name="name">Fiel pea - Etetu (???)</field>
+        <field name="code">fiel-pea-Etetu-(???)</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_fiel_pea_kuullee_eh08027_2" model="g2p.crop.variety">
+        <field name="name">Fiel pea - Kuullee (EH08027-2)</field>
+        <field name="code">fiel-pea-kuullee-(EH08027-2)</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_field_pea_burkitueh99004_2" model="g2p.crop.variety">
+        <field name="name">Field pea- burkitu(EH99004-2)</field>
+        <field name="code">field-pea-burkitu(EH99004-2)</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_field_pea_dume_eh96026_1_4" model="g2p.crop.variety">
+        <field name="name">Field pea- dume (EH96026-1-4)</field>
+        <field name="code">field-pea-dume-(EH96026-1-4)</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_field_pea_amberichoig_51664" model="g2p.crop.variety">
+        <field name="name">Field pea - Ambericho(IG-51664)</field>
+        <field name="code">field-pea-ambericho(IG-51664)</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_field_pea_urji_acc" model="g2p.crop.variety">
+        <field name="name">Field pea - URJI (Acc)</field>
+        <field name="code">field-pea-URJI-(Acc)</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_field_pea_adet_1" model="g2p.crop.variety">
+        <field name="name">Field pea - Adet 1</field>
+        <field name="code">field-pea-adet-1</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_field_pea_adi" model="g2p.crop.variety">
+        <field name="name">Field pea - Adi</field>
+        <field name="code">field-pea-adi</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_field_pea_bilallo_eh" model="g2p.crop.variety">
+        <field name="name">Field pea - BILALLO (EH)</field>
+        <field name="code">field-pea-BILALLO-(EH)</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_field_pea_bursa_???" model="g2p.crop.variety">
+        <field name="name">Field pea - BURSA (???)</field>
+        <field name="code">field-pea-BURSA-(???)</field>
+        <field name="crop_id" ref="field_pea"/>
+    </record>
+    <record id="crop_variety_figer_millet_bako_09_acc214995" model="g2p.crop.variety">
+        <field name="name">Figer Millet - Bako-09 (Acc.214995)</field>
+        <field name="code">figer-millet-bako-09-(Acc.214995)</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_finger_millet_haro_fmc_33" model="g2p.crop.variety">
+        <field name="name">Finger millet- Haro (FMC-33)</field>
+        <field name="code">finger-millet-haro-(FMC-33)</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_finger_millet_adet_06" model="g2p.crop.variety">
+        <field name="name">Finger millet-Adet-06)</field>
+        <field name="code">finger-millet-Adet-06</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_finger_millet_diga_1_acc" model="g2p.crop.variety">
+        <field name="name">Finger Millet - Diga-1 (ACC)</field>
+        <field name="code">finger-millet-diga-1-(ACC)</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_finger_millet_gute_229373" model="g2p.crop.variety">
+        <field name="name">Finger Millet - GUTE (229373)</field>
+        <field name="code">finger-millet-GUTE-(229373)</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_finger_millet_metekili_acc" model="g2p.crop.variety">
+        <field name="name">Finger Millet - Metekili (Acc)</field>
+        <field name="code">finger-millet-metekili-(Acc)</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_finger_millet_urji_acc" model="g2p.crop.variety">
+        <field name="name">Finger Millet - Urji (Acc)</field>
+        <field name="code">finger-millet-Urji-(Acc)</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_finger_millet_:kumsa" model="g2p.crop.variety">
+        <field name="name">Finger Millet - : Kumsa</field>
+        <field name="code">finger_millet-:kumsa</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_finger_millet_??adet_05?_?" model="g2p.crop.variety">
+        <field name="name">Finger Millet - ??Adet-05 ?</field>
+        <field name="code">finger_millet-??Adet-05? ?</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_finger_millet_addis_01_acc203544" model="g2p.crop.variety">
+        <field name="name">Finger Millet - Addis-01 (Acc.203544)</field>
+        <field name="code">finger-millet-addis-01-(Acc.203544)</field>
+        <field name="crop_id" ref="finger_millet"/>
+    </record>
+    <record id="crop_variety_food_barely_odasha_ibonh141p#38" model="g2p.crop.variety">
+        <field name="name">food barely -Odasha (IBONH141P#38)</field>
+        <field name="code">food-barely-odasha-(IBONH141P#38)</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_barely_?gesse?" model="g2p.crop.variety">
+        <field name="name">food barely - ?Gesse?</field>
+        <field name="code">food-barely-?Gesse?</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_barley_'gabisa'" model="g2p.crop.variety">
+        <field name="name">Food barley - 'GABISA'</field>
+        <field name="code">food-barley-'GABISA'</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_barley_?zina?_acc#1st" model="g2p.crop.variety">
+        <field name="name">Food barley - ?Zina? (Acc#1st)</field>
+        <field name="code">food-barley-?Zina?-(Acc#1st)</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_barley_4731_" model="g2p.crop.variety">
+        <field name="name">Food barley - 4731 -</field>
+        <field name="code">food-barley-4731-</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_barley_4748_16" model="g2p.crop.variety">
+        <field name="name">Food barley - 4748 -16</field>
+        <field name="code">food-barley-4748-16</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_barley_agegnehu" model="g2p.crop.variety">
+        <field name="name">Food barley - AGEGNEHU</field>
+        <field name="code">food-barley-AGEGNEHU</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_barley_biftu" model="g2p.crop.variety">
+        <field name="name">Food barley - Biftu</field>
+        <field name="code">food-barley-biftu</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_barley_dinsho" model="g2p.crop.variety">
+        <field name="name">Food barley - Dinsho</field>
+        <field name="code">food-barley-dinsho</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_barley_diribe_7th" model="g2p.crop.variety">
+        <field name="name">Food barley - Diribe (7th)</field>
+        <field name="code">food-barley-diribe-(7th)</field>
+        <field name="crop_id" ref="food_barley"/>
+    </record>
+    <record id="crop_variety_food_oat_richo" model="g2p.crop.variety">
+        <field name="name">Food oat-Richo</field>
+        <field name="code">food-oat-richo</field>
+        <field name="crop_id" ref="food_oat"/>
+    </record>
+    <record id="crop_variety_food_oat_sorataf_79ab382" model="g2p.crop.variety">
+        <field name="name">Food oat - SORATAF (79Ab382)</field>
+        <field name="code">food-oat-SORATAF-(79Ab382)</field>
+        <field name="crop_id" ref="food_oat"/>
+    </record>
+    <record id="crop_variety_food_oat_enat" model="g2p.crop.variety">
+        <field name="name">Food oat - Enat</field>
+        <field name="code">food-oat-enat</field>
+        <field name="crop_id" ref="food_oat"/>
+    </record>
+    <record id="crop_variety_forage_soyabean_milkii_tgx1990_114fn" model="g2p.crop.variety">
+        <field name="name">Forage Soyabean - (Milkii) TGX1990-114FN</field>
+        <field name="code">forage-soyabean-(Milkii)-TGX1990-114FN</field>
+        <field name="crop_id" ref="forage_soybean"/>
+    </record>
+    <record id="crop_variety_foxtail_millet_fetan_???" model="g2p.crop.variety">
+        <field name="name">Foxtail millet - Fetan- (???</field>
+        <field name="code">foxtail-millet-fetan-(???</field>
+        <field name="crop_id" ref="foxtail_millet"/>
+    </record>
+    <record id="crop_variety_foxtail_miollet_fetan_???" model="g2p.crop.variety">
+        <field name="name">Foxtail Miollet - Fetan- (???)</field>
+        <field name="code">foxtail-miollet-fetan-(???)</field>
+        <field name="crop_id" ref="foxtail_millet"/>
+    </record>
+    <record id="crop_variety_garlic_kundi_ng_0048/04" model="g2p.crop.variety">
+        <field name="name">Garlic - Kundi (NG-0048/04)</field>
+        <field name="code">garlic-kundi-(NG-0048/04)</field>
+        <field name="crop_id" ref="garlic"/>
+    </record>
+    <record id="crop_variety_ground_nut" model="g2p.crop.variety">
+        <field name="name">Ground nut</field>
+        <field name="code">ground-nut</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety_groundnut_hirko_accession_#_23525" model="g2p.crop.variety">
+        <field name="name">Groundnut-Hirko (Accession # 23525)</field>
+        <field name="code">groundnut-hirko-(Accession # 23525)</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety_groundnut_damkt_2016_icgv_96346" model="g2p.crop.variety">
+        <field name="name">Groundnut - DAMKT-2016 (ICGV-96346)</field>
+        <field name="code">groundnut-DAMKT-2016-(ICGV-96346)</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety_groundnut_&quot;icgv_95469&quot;" model="g2p.crop.variety">
+        <field name="name">Groundnut - "ICGV-95469"</field>
+        <field name="code">groundnut-"ICGV-95469"</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety_groundnut_babile_1_icgv_98412" model="g2p.crop.variety">
+        <field name="name">Groundnut - Babile-1 (ICGV-98412)</field>
+        <field name="code">groundnut-babile-1-(ICGV-98412)</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety_groundnut_babile_2_icgv_98404" model="g2p.crop.variety">
+        <field name="name">Groundnut - Babile-2 (ICGV-98404)</field>
+        <field name="code">groundnut-babile-2-(ICGV-98404)</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety_groundnut_babile_3_icgv_94100" model="g2p.crop.variety">
+        <field name="name">Groundnut - Babile-3 (ICGV-94100)</field>
+        <field name="code">groundnut-babile-3-(ICGV-94100)</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety_groundnut_betisedi_icg_273" model="g2p.crop.variety">
+        <field name="name">Groundnut - Betisedi (ICG-273)</field>
+        <field name="code">groundnut-betisedi-(ICG-273)</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety_groundnut_habesha_icg_7822" model="g2p.crop.variety">
+        <field name="name">Groundnut - Habesha (ICG-7822)</field>
+        <field name="code">groundnut-habesha-(ICG-7822)</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety_groundnut_icg67_x_bigseed" model="g2p.crop.variety">
+        <field name="name">Groundnut - ICG67 X BIGSEED</field>
+        <field name="code">groundnut-ICG67-X-BIGSEED</field>
+        <field name="crop_id" ref="groundnut"/>
+    </record>
+    <record id="crop_variety__irish_potato_worku_ad5016459" model="g2p.crop.variety">
+        <field name="name">-irish potato-Worku (AD501645.9)</field>
+        <field name="code">-irish-potato-Worku-(AD501645.9)</field>
+        <field name="crop_id" ref="irish_potato"/>
+    </record>
+    <record id="crop_variety_irish_potato_solanum_tuberosumhermes" model="g2p.crop.variety">
+        <field name="name">Irish potato- (Solanum tuberosum)Hermes</field>
+        <field name="code">irish-potato-(solanum-tuberosum)hermes</field>
+        <field name="crop_id" ref="irish_potato"/>
+    </record>
+    <record id="crop_variety_irish_potato_birhan_cip312921576" model="g2p.crop.variety">
+        <field name="name">irish potato-Birhan (CIP312921.576)</field>
+        <field name="code">irish-potato-birhan-(CIP312921.576)</field>
+        <field name="crop_id" ref="irish_potato"/>
+    </record>
+    <record id="crop_variety_irish_potato_caruso" model="g2p.crop.variety">
+        <field name="name">Irish potato-Caruso</field>
+        <field name="code">irish-potato-Caruso</field>
+        <field name="crop_id" ref="irish_potato"/>
+    </record>
+    <record id="crop_variety_irish_potato_dagnew_cip312929532" model="g2p.crop.variety">
+        <field name="name">Irish potato-Dagnew (CIP312929.532)</field>
+        <field name="code">irish-potato-dagnew-(CIP312929.532)</field>
+        <field name="crop_id" ref="irish_potato"/>
+    </record>
+    <record id="crop_variety_korerima_benchi_maji_1_acc#0211/00" model="g2p.crop.variety">
+        <field name="name">Korerima - Benchi maji-1 (Acc#0211/00)</field>
+        <field name="code">korerima-benchi-maji-1-(Acc#0211/00)</field>
+        <field name="crop_id" ref="kororima"/>
+    </record>
+    <record id="crop_variety_korerima_kefa_1_acc#010/00" model="g2p.crop.variety">
+        <field name="name">Korerima - Kefa-1 (Acc#010/00)</field>
+        <field name="code">korerima-kefa-1-(Acc#010/00)</field>
+        <field name="crop_id" ref="kororima"/>
+    </record>
+    <record id="crop_variety_lemmon_allen_eureka" model="g2p.crop.variety">
+        <field name="name">Lemmon-Allen Eureka</field>
+        <field name="code">lemmon-allen-eureka</field>
+        <field name="crop_id" ref="lemon_verbena"/>
+    </record>
+    <record id="crop_variety_lemon_lemon_eureka" model="g2p.crop.variety">
+        <field name="name">Lemon-Lemon Eureka</field>
+        <field name="code">lemon-Lemon-eureka</field>
+        <field name="crop_id" ref="lemon_verbena"/>
+    </record>
+    <record id="crop_variety_lemon_limoneira_lisbon" model="g2p.crop.variety">
+        <field name="name">Lemon-Limoneira Lisbon</field>
+        <field name="code">lemon-Limoneira-lisbon</field>
+        <field name="crop_id" ref="lemon_verbena"/>
+    </record>
+    <record id="crop_variety_derso_alemaya_flip_88_411_02_ak_14" model="g2p.crop.variety">
+        <field name="name">Derso (Alemaya FLIP-88-411-02-AK-14)</field>
+        <field name="code">derso-(Alemaya FLIP-88-411-02-AK-14)</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lentil_alem_tena_flip_96_49l" model="g2p.crop.variety">
+        <field name="name">Lentil- Alem Tena (FLIP 96-49L)</field>
+        <field name="code">lentil-alem-tena-(FLIP 96-49L)</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lentil_assano_flip_88_46" model="g2p.crop.variety">
+        <field name="name">Lentil- Assano (Flip 88-46)</field>
+        <field name="code">lentil-assano-(Flip 88-46)</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lentil_ada_flip__86_14l" model="g2p.crop.variety">
+        <field name="name">Lentil - ADA (Flip- 86-14L)</field>
+        <field name="code">lentil-ada-(Flip- 86-14L)</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lentil_alemaya_98flip_89_63l" model="g2p.crop.variety">
+        <field name="name">Lentil - Alemaya 98(Flip 89-63L)</field>
+        <field name="code">lentil-alemaya-98(Flip 89-63L)</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lentil_baredu_flip_2011_17l" model="g2p.crop.variety">
+        <field name="name">Lentil - Baredu (FLIP-2011-17L)</field>
+        <field name="code">lentil-baredu-(FLIP-2011-17L)</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lentil_chalew_nel_358" model="g2p.crop.variety">
+        <field name="name">Lentil - Chalew (NEL 358)</field>
+        <field name="code">lentil-chalew-(NEL 358)</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lentil_checole_enal_2704" model="g2p.crop.variety">
+        <field name="name">Lentil - Checole (ENAL-2704)</field>
+        <field name="code">lentil-checole-(ENAL-2704)</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lentil_debine_???_dz_2012ln_0051" model="g2p.crop.variety">
+        <field name="name">Lentil - Debine (???) ((DZ-2012Ln-0051))</field>
+        <field name="code">lentil-debine-(???)-((DZ-2012Ln-0051))</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lentil_dembi_el_?" model="g2p.crop.variety">
+        <field name="name">Lentil - Dembi (El ?)</field>
+        <field name="code">lentil-dembi-(El ?)</field>
+        <field name="crop_id" ref="lentil"/>
+    </record>
+    <record id="crop_variety_lettuce_dornas_rz" model="g2p.crop.variety">
+        <field name="name">Lettuce - Dornas RZ</field>
+        <field name="code">lettuce-dornas-rz</field>
+        <field name="crop_id" ref="lettuce"/>
+    </record>
+    <record id="crop_variety_lima_bean_lwk_b45" model="g2p.crop.variety">
+        <field name="name">Lima bean - LWK B45</field>
+        <field name="code">lima_bean-LWK-B45</field>
+        <field name="crop_id" ref="lima_bean"/>
+    </record>
+    <record id="crop_variety_lima_bean_wako_b45ch01214eh" model="g2p.crop.variety">
+        <field name="name">Lima bean - Wako (B45CH01214EH)</field>
+        <field name="code">lima-bean-wako-(B45CH01214EH)</field>
+        <field name="crop_id" ref="lima_bean"/>
+    </record>
+    <record id="crop_variety_linseed_chilalo_kulumsa_1" model="g2p.crop.variety">
+        <field name="name">Linseed -Chilalo (Kulumsa-1)</field>
+        <field name="code">linseed-chilalo-(Kulumsa-1)</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_linseed_welin_???" model="g2p.crop.variety">
+        <field name="name">Linseed - Welin (???)</field>
+        <field name="code">linseed-welin-(???)</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_linseed_kuma/_??_r734d" model="g2p.crop.variety">
+        <field name="name">Linseed - Kuma/ ?? (R734D)</field>
+        <field name="code">linseed-kuma/ ??-(R734D)</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_linseed_horesoba_????" model="g2p.crop.variety">
+        <field name="name">Linseed - Horesoba (????)</field>
+        <field name="code">linseed-horesoba-(????)</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_linseed_geregera_r7_20d" model="g2p.crop.variety">
+        <field name="name">Linseed - Geregera (R7-20D)</field>
+        <field name="code">linseed-geregera-(R7-20D)</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_linseed_furtu_ci_1525_x" model="g2p.crop.variety">
+        <field name="name">Linseed - Furtu (CI-1525 X)</field>
+        <field name="code">linseed-furtu-(CI-1525 X)</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_linseed_eh010007_7_keyeron_????" model="g2p.crop.variety">
+        <field name="name">Linseed - EH010007-7 (Keyeron ????)</field>
+        <field name="code">linseed-EH010007-7-(Keyeron ????)</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_linseed_cl_1525" model="g2p.crop.variety">
+        <field name="name">Linseed - Cl-1525</field>
+        <field name="code">linseed-cl-1525</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_linseed_ci_1652" model="g2p.crop.variety">
+        <field name="name">Linseed - CI - 1652</field>
+        <field name="code">linseed-ci-1652</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_linseed_biltstar" model="g2p.crop.variety">
+        <field name="name">Linseed - BILTSTAR</field>
+        <field name="code">linseed-BILTSTAR</field>
+        <field name="crop_id" ref="linseed"/>
+    </record>
+    <record id="crop_variety_124_b_109___maize_parental" model="g2p.crop.variety">
+        <field name="name">124-b (109) - Maize parental</field>
+        <field name="code">124-b (109) - Maize parental</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_124_b113_maize_parental_line" model="g2p.crop.variety">
+        <field name="name">124-B(113) - Maize parental line</field>
+        <field name="code">124-B(113)-maize-parental-line</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_142_1_e_maize_parental_line" model="g2p.crop.variety">
+        <field name="name">142-1-e - Maize parental line</field>
+        <field name="code">142-1-e-maize-parental-line</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_144_7_b_maize_parent_line" model="g2p.crop.variety">
+        <field name="name">144-7-b - Maize parent line</field>
+        <field name="code">144-7-b-maize-parent-line</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_a7033_maize_parental_lines" model="g2p.crop.variety">
+        <field name="name">A7033 - Maize parental lines</field>
+        <field name="code">A7033-Maize-parental-lines</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_a7033_f_7215_maize_parental" model="g2p.crop.variety">
+        <field name="name">A7033/ F-7215 - Maize parental</field>
+        <field name="code">A7033-F-7215-maize-parental</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_bkl001_maize_parental_line" model="g2p.crop.variety">
+        <field name="name">BKL001 - Maize parental line)</field>
+        <field name="code">bkL001-maize-parental-line)</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_bkl002_maize_parental_line" model="g2p.crop.variety">
+        <field name="name">BKL002 - Maize Parental line</field>
+        <field name="code">bkL002-maize-Parental-line</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_bkl002_cml312bk_maize_parental_lines" model="g2p.crop.variety">
+        <field name="name">BKL002/CML312BK - Maize parental lines</field>
+        <field name="code">BKL002-CML312BK-maize-parental-lines</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_bkl003_maize_parental_line" model="g2p.crop.variety">
+        <field name="name">BKL003 - Maize Parental line</field>
+        <field name="code">BKL003-maize-parental-line</field>
+        <field name="crop_id" ref="maize"/>
+    </record>
+    <record id="crop_variety_malt_barley_traveler" model="g2p.crop.variety">
+        <field name="name">Malt Barley - Traveler</field>
+        <field name="code">malt-barley-traveler</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_malt_barley_fatima" model="g2p.crop.variety">
+        <field name="name">Malt barley -Fatima</field>
+        <field name="code">malt-barley-fatima</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_malt_barley_waro_libra" model="g2p.crop.variety">
+        <field name="name">Malt Barley - Waro (LIBRA)</field>
+        <field name="code">malt-barley-waro-(LIBRA)</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_malt_barley_suba_pedigree" model="g2p.crop.variety">
+        <field name="name">Malt Barley - Suba (Pedigree)</field>
+        <field name="code">malt-barley-suba-(pedigree)</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_malt_barley_singitan_ibon_mra" model="g2p.crop.variety">
+        <field name="name">Malt Barley - Singitan (IBON-MRA)</field>
+        <field name="code">malt-barley-singitan-(IBON-MRA)</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_malt_barley_rgt_planet" model="g2p.crop.variety">
+        <field name="name">Malt Barley - RGT Planet</field>
+        <field name="code">malt-barley-RGT-Planet</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_malt_barley_raya_1" model="g2p.crop.variety">
+        <field name="name">Malt Barley - Raya 1</field>
+        <field name="code">malt-barley-raya-1</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_malt_barley_moata" model="g2p.crop.variety">
+        <field name="name">Malt Barley - MOATA</field>
+        <field name="code">malt-barley-MOATA</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_malt_barley_mbf5p#26_??" model="g2p.crop.variety">
+        <field name="name">Malt Barley - MBF5P#26 (??)</field>
+        <field name="code">malt-barley-MBF5P#26 (??)</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_malt_barley_iftuu_mn" model="g2p.crop.variety">
+        <field name="name">Malt barley - Iftuu (Mn)</field>
+        <field name="code">malt-barley-iftuu-(Mn)</field>
+        <field name="crop_id" ref="malt_barley"/>
+    </record>
+    <record id="crop_variety_mung_bean_mh_97_6_borda" model="g2p.crop.variety">
+        <field name="name">Mung - bean- MH-97-6 (Borda)</field>
+        <field name="code">mung-bean-MH-97-6-(Borda)</field>
+        <field name="crop_id" ref="mung_bean"/>
+    </record>
+    <record id="crop_variety_mung_bean_mieso_1_vc_6492_59a" model="g2p.crop.variety">
+        <field name="name">Mung bean-Mieso 1 (VC-6492-59A)</field>
+        <field name="code">mung-bean-mieso-1-(VC-6492-59A)</field>
+        <field name="crop_id" ref="mung_bean"/>
+    </record>
+    <record id="crop_variety_mung_bean_arkebe_sml_668" model="g2p.crop.variety">
+        <field name="name">Mung bean - Arkebe (SML-668)</field>
+        <field name="code">mung-bean-arkebe-(SML-668)</field>
+        <field name="crop_id" ref="mung_bean"/>
+    </record>
+    <record id="crop_variety_mung_bean_nvl_1" model="g2p.crop.variety">
+        <field name="name">Mung Bean - NVL-1</field>
+        <field name="code">mung-bean-NVL-1</field>
+        <field name="crop_id" ref="mung_bean"/>
+    </record>
+    <record id="crop_variety_mungbean_arkebe" model="g2p.crop.variety">
+        <field name="name">Mungbean- Arkebe</field>
+        <field name="code">mungbean-arkebe</field>
+        <field name="crop_id" ref="mung_bean"/>
+    </record>
+    <record id="crop_variety_mungbean_rasa_n_26" model="g2p.crop.variety">
+        <field name="name">Mungbean - Rasa (N-26)</field>
+        <field name="code">mungbean-rasa-(N-26)</field>
+        <field name="crop_id" ref="mung_bean"/>
+    </record>
+    <record id="crop_variety_noug_este_1" model="g2p.crop.variety">
+        <field name="name">Noug - Este-1</field>
+        <field name="code">noug-este-1</field>
+        <field name="crop_id" ref="noug"/>
+    </record>
+    <record id="crop_variety_noug_fogera" model="g2p.crop.variety">
+        <field name="name">Noug - Fogera</field>
+        <field name="code">noug-fogera</field>
+        <field name="crop_id" ref="noug"/>
+    </record>
+    <record id="crop_variety_noug_kuyu" model="g2p.crop.variety">
+        <field name="name">Noug - Kuyu</field>
+        <field name="code">noug-kuyu</field>
+        <field name="crop_id" ref="noug"/>
+    </record>
+    <record id="crop_variety_oats_dumant_2007_portage" model="g2p.crop.variety">
+        <field name="name">Oats - DUMANT 2007 Portage</field>
+        <field name="code">oats-DUMANT-2007-portage</field>
+        <field name="crop_id" ref="oats"/>
+    </record>
+    <record id="crop_variety_food_oats_tena'_souris" model="g2p.crop.variety">
+        <field name="name">Food Oats - Tena' (Souris)</field>
+        <field name="code">food-oats-tena'-(Souris)</field>
+        <field name="crop_id" ref="oats"/>
+    </record>
+    <record id="crop_variety_food_oats_'hulegeb'_goslin" model="g2p.crop.variety">
+        <field name="name">Food Oats - 'Hulegeb' (Goslin)</field>
+        <field name="code">food-oats-'Hulegeb'-(Goslin)</field>
+        <field name="crop_id" ref="oats"/>
+    </record>
+    <record id="crop_variety_okra_belese_m_27c" model="g2p.crop.variety">
+        <field name="name">Okra - Belese (M-27C)</field>
+        <field name="code">okra-belese-(M-27C)</field>
+        <field name="crop_id" ref="okra"/>
+    </record>
+    <record id="crop_variety_onion" model="g2p.crop.variety">
+        <field name="name">Onion</field>
+        <field name="code">onion</field>
+        <field name="crop_id" ref="onion"/>
+    </record>
+    <record id="crop_variety_onion_red_ball_f1" model="g2p.crop.variety">
+        <field name="name">Onion - Red Ball F1</field>
+        <field name="code">onion-red-ball-F1</field>
+        <field name="crop_id" ref="onion"/>
+    </record>
+    <record id="crop_variety_onion_red_nice" model="g2p.crop.variety">
+        <field name="name">Onion - Red Nice</field>
+        <field name="code">onion-red-nice</field>
+        <field name="crop_id" ref="onion"/>
+    </record>
+    <record id="crop_variety_pearl_millet_kola_1_icmv_221" model="g2p.crop.variety">
+        <field name="name">Pearl Millet - KOLA-1 (ICMV-221)</field>
+        <field name="code">pearl-millet-KOLA-1-(ICMV-221)</field>
+        <field name="crop_id" ref="pearl_millet"/>
+    </record>
+    <record id="crop_variety_pegion_pea_afrassa_iceap0117/9" model="g2p.crop.variety">
+        <field name="name">Pegion pea - Afrassa (ICEAP0117/9)</field>
+        <field name="code">pegion-pea-afrassa-(ICEAP0117/9)</field>
+        <field name="crop_id" ref="pigeon_pea"/>
+    </record>
+    <record id="crop_variety_pigeon_pea" model="g2p.crop.variety">
+        <field name="name">Pigeon pea</field>
+        <field name="code">pigeon_pea</field>
+        <field name="crop_id" ref="pigeon_pea"/>
+    </record>
+    <record id="crop_variety_pigeon_pea_arjo_medium_set" model="g2p.crop.variety">
+        <field name="name">Pigeon pea-Arjo (Medium set)</field>
+        <field name="code">pigeon-pea-arjo-(Medium set)</field>
+        <field name="crop_id" ref="pigeon_pea"/>
+    </record>
+    <record id="crop_variety_pigeon_pea_iceap_00554" model="g2p.crop.variety">
+        <field name="name">Pigeon pea - ICEAP 00554</field>
+        <field name="code">pigeon-pea-ICEAP-00554</field>
+        <field name="crop_id" ref="pigeon_pea"/>
+    </record>
+    <record id="crop_variety_quinoa_yenewa_???_titicaca" model="g2p.crop.variety">
+        <field name="name">Quinoa - Yenewa ??? (Titicaca)</field>
+        <field name="code">quinoa-yenewa-???-(Titicaca)</field>
+        <field name="crop_id" ref="quinoa"/>
+    </record>
+    <record id="crop_variety_rapeseed_and_ethiopian_mustard__" model="g2p.crop.variety">
+        <field name="name">Rapeseed and Ethiopian mustard -</field>
+        <field name="code">rapeseed-and-ethiopian-mustard -</field>
+        <field name="crop_id" ref="rapeseed"/>
+    </record>
+    <record id="crop_variety_rapeseed_acc_20131_melkaa" model="g2p.crop.variety">
+        <field name="name">Rapeseed-ACC 20131 (Melkaa)</field>
+        <field name="code">rapeseed-ACC-20131-(Melkaa)</field>
+        <field name="crop_id" ref="rapeseed"/>
+    </record>
+    <record id="crop_variety_rape_seed_swifter" model="g2p.crop.variety">
+        <field name="name">Rape seed - Swifter</field>
+        <field name="code">rape-seed-swifter</field>
+        <field name="crop_id" ref="rapeseed"/>
+    </record>
+    <record id="crop_variety_ethiopian_mustard_tesfa" model="g2p.crop.variety">
+        <field name="name">Ethiopian mustard - Tesfa</field>
+        <field name="code">ethiopian-mustard-tesfa</field>
+        <field name="crop_id" ref="rapeseed"/>
+    </record>
+    <record id="crop_variety_ethiopian_mustard_derash" model="g2p.crop.variety">
+        <field name="name">Ethiopian mustard - Derash</field>
+        <field name="code">ethiopian-mustard-derash</field>
+        <field name="crop_id" ref="rapeseed"/>
+    </record>
+</odoo>

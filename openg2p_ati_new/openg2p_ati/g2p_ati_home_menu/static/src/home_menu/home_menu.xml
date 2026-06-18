@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="g2p_ati_home_menu.AppGrid" owl="1">
+        <div
+            t-att-class="{
+                'o_g2p_ati_home_menu': true,
+                'o_g2p_ati_home_menu_leaving': state.isLeaving,
+            }"
+            t-att-style="backgroundStyle"
+        >
+            <div class="o_g2p_ati_home_menu_apps" role="menu">
+                <a
+                    t-foreach="apps"
+                    t-as="app"
+                    t-key="app.id"
+                    t-att-class="{
+                        'o_g2p_ati_home_menu_app': true,
+                        'o_g2p_ati_home_menu_app_launching': state.launchingAppId === app.id,
+                    }"
+                    role="menuitem"
+                    t-att-href="getAppHref(app)"
+                    t-att-title="app.name"
+                    t-att-data-menu-xmlid="app.xmlid"
+                    t-att-data-section="app.id"
+                    t-on-click.prevent="() => this.openApp(app)"
+                >
+                    <img
+                        class="o_g2p_ati_home_menu_icon"
+                        t-att-src="getAppIcon(app)"
+                        t-att-alt="app.name"
+                    />
+                    <span class="o_g2p_ati_home_menu_name">
+                        <t t-out="app.name"/>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </t>
+</templates>

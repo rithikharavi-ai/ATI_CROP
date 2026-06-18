@@ -1,0 +1,15 @@
+<odoo>
+    <record id="action_superset_dashboard_embedded" model="ir.actions.client">
+        <field name="name">Embedded</field>
+        <field name="tag">g2p.superset_dashboard_embedded</field>
+    </record>
+
+
+    <menuitem
+        id="menu_g2p_ati_embed_dashboards"
+        name="Embedding"
+        sequence="1"
+        parent="base.menu_administration"
+    />
+
+</odoo>

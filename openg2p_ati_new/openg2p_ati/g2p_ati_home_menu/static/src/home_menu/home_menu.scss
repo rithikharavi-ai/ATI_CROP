@@ -1,0 +1,206 @@
+.o_g2p_ati_home_menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    min-height: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 72px 24px 48px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    user-select: none;
+}
+
+body.o_g2p_ati_home_menu_open {
+    .o_web_client {
+        grid-template-areas:
+            "banner"
+            "content"
+            "components" !important;
+        grid-template-rows: auto 1fr auto !important;
+        grid-template-columns: 1fr !important;
+    }
+
+    .o_web_client > .o_navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1050;
+        grid-area: content !important;
+        width: 0;
+        height: 0;
+        min-height: 0;
+        overflow: visible;
+        background: transparent !important;
+        border: 0 !important;
+        pointer-events: none;
+    }
+
+    .o_main_navbar {
+        width: 0;
+        height: 0;
+        min-height: 0;
+        padding: 0;
+        overflow: visible;
+        background: transparent !important;
+        border: 0 !important;
+        pointer-events: none;
+    }
+
+    .o_action_manager {
+        grid-area: content !important;
+    }
+
+    .o_navbar_apps_menu,
+    .o_menu_brand,
+    .o_menu_sections {
+        display: none !important;
+    }
+
+    .o_menu_systray {
+        position: fixed;
+        top: 8px;
+        right: 8px;
+        z-index: 1051;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding: 4px 6px;
+        border-radius: 6px;
+        background: rgba(17, 24, 39, 0.72) !important;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+        pointer-events: auto;
+    }
+
+    .o_user_menu {
+        display: block !important;
+
+        .oe_topbar_name {
+            display: none !important;
+        }
+    }
+
+    .mk_apps_sidebar_panel {
+        display: none !important;
+    }
+}
+
+.o_g2p_ati_home_menu_apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 24px 18px;
+    width: 100%;
+    max-width: 980px;
+}
+
+.o_g2p_ati_home_menu_app {
+    display: flex;
+    flex: 0 0 118px;
+    flex-direction: column;
+    align-items: center;
+    min-height: 112px;
+    color: $mk-appsmenu-color;
+    text-align: center;
+    text-decoration: none;
+    transition:
+        opacity ease-out 0.16s,
+        transform ease-out 0.16s;
+
+    &:hover,
+    &:focus {
+        color: $mk-appsmenu-color;
+        text-decoration: none;
+    }
+
+    &:focus-visible {
+        outline: 2px solid #f8f9fa;
+        outline-offset: 6px;
+        border-radius: 6px;
+    }
+
+    &:hover .o_g2p_ati_home_menu_icon {
+        transform: translateY(-2px);
+    }
+}
+
+.o_g2p_ati_home_menu_leaving {
+    .o_g2p_ati_home_menu_app {
+        opacity: 0.28;
+        pointer-events: none;
+        transform: scale(0.94);
+    }
+
+    .o_g2p_ati_home_menu_app_launching {
+        opacity: 1;
+        transform: translateY(-8px) scale(1.08);
+    }
+
+    .o_g2p_ati_home_menu_app_launching .o_g2p_ati_home_menu_icon {
+        transform: scale(1.05);
+    }
+}
+
+.o_g2p_ati_home_menu_icon {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    object-fit: contain;
+    border-radius: 0.3em;
+    background-color: #fff;
+    box-shadow: none;
+    transform-origin: center bottom;
+    transition: transform ease-in 0.1s;
+}
+
+.o_g2p_ati_home_menu_name {
+    max-width: 120px;
+    margin-top: 8px;
+    overflow-wrap: anywhere;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-shadow: none;
+}
+
+@keyframes o-g2p-ati-action-enter {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.99);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+body:not(.o_g2p_ati_home_menu_open) {
+    .o_action_manager > .o_action {
+        animation: o-g2p-ati-action-enter 0.22s ease-out both;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body:not(.o_g2p_ati_home_menu_open) {
+        .o_action_manager > .o_action {
+            animation: none;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .o_g2p_ati_home_menu {
+        padding: 28px 12px;
+    }
+
+    .o_g2p_ati_home_menu_apps {
+        gap: 20px 10px;
+    }
+
+    .o_g2p_ati_home_menu_app {
+        flex-basis: 96px;
+    }
+}

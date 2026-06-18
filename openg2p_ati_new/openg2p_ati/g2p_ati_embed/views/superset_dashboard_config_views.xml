@@ -1,0 +1,40 @@
+<odoo>
+    <record id="view_superset_dashboard_tree" model="ir.ui.view">
+        <field name="name">superset.dashboard.config.tree</field>
+        <field name="model">g2p.superset.dashboard.config</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name" />
+                <field name="url" placeholder="Start with 'http://' or 'https://" />
+                <field name="menu_name" />
+                <field name="parent" />
+                <field name="group_name" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_superset_dashboard_config" model="ir.actions.act_window">
+        <field name="name">Embedding Configuration</field>
+        <field name="res_model">g2p.superset.dashboard.config</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_superset_root_dashboard_config"
+        name="Configuration"
+        sequence="910"
+        parent="g2p_ati_embed.menu_g2p_ati_embed_dashboards"
+        action="action_superset_dashboard_config"
+        groups="g2p_ati_embed.group_g2p_ati_embed_admin"
+    />
+
+    
+<!-- 
+  <menuitem
+        id="menu_superset_dashboard_config"
+        name="Communication"
+        action="action_superset_dashboard_config"
+        groups="g2p_ati_embed.group_g2p_ati_embed_admin"
+    />  -->
+
+</odoo>

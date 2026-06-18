@@ -1,0 +1,82 @@
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Zoom in */
+    }
+    100% {
+        transform: scale(1); /* Zoom out */
+    }
+}
+
+.loading-image-g2p-logo {
+    width: auto;
+    height: auto;
+    animation: zoomInOut 3s infinite;
+}
+
+.fade-in-g2p {
+    animation: fadeInAnimation 0.5s ease-in-out forwards;
+    opacity: 0;
+}
+
+.g2p_superset_dashboard_shell {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #fff;
+}
+
+.g2p_superset_dashboard_iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.g2p_superset_dashboard_toolbar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.g2p_superset_dashboard_reload {
+    padding: 5px 10px;
+    border: 1px solid rgba(17, 24, 39, 0.18);
+    border-radius: 4px;
+    color: #111827;
+    background: rgba(255, 255, 255, 0.88);
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.g2p_superset_dashboard_reload:hover,
+.g2p_superset_dashboard_reload:focus {
+    background: #fff;
+}
+
+.g2p_superset_dashboard_loading {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.82);
+    font-size: 11px;
+    pointer-events: none;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

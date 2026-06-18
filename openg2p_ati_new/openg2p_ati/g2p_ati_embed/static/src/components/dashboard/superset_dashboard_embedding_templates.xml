@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve" >
+  <t t-name="g2p_ati_embed.G2PSupersetDashboardEmbedded" class="fade-in-g2p"  owl="1">
+
+
+
+
+
+
+      <t t-if="state.isLoading">
+          <div
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;"
+            >
+              <div class="loading-image-g2p-logo">
+                  <img
+                        style="max-height: 70px; max-width: 70px;"
+                        src="/g2p_ati_embed/static/description/icon.png"
+                    />
+              </div>
+              <span style="font-size: 11px">Loading Superset Dashboard</span>
+          </div>
+      </t>
+
+      <t t-elif="!state.isLoading and !state.dashboardUrl">
+          <div
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;"
+            >
+              <div>
+                  <img
+                        style="max-height: 70px; max-width: 70px;"
+                        src="/g2p_ati_embed/static/description/icon.png"
+                    />
+              </div>
+              <div>
+                <p
+                        style="color: red; font-size: 18px; font-weight: bold; font-family: Roboto; text-align: center; text-align-last: center;"
+                    >No Dashboards Available</p>
+                <p
+                        style="color: black; font-size: 14px; font-family:Roboto;"
+                    ><t t-esc="state.error or 'Try contacting Admin to configure new dashboards or give you access rights.'" /></p>
+              </div>
+          </div>
+      </t>
+
+      <t t-elif="!state.isLoading and state.dashboardUrl">
+          <div class="g2p_superset_dashboard_shell">
+              <div t-if="state.isFrameLoading" class="g2p_superset_dashboard_loading">
+                  <div class="loading-image-g2p-logo">
+                      <img
+                            style="max-height: 52px; max-width: 52px;"
+                            src="/g2p_ati_embed/static/description/icon.png"
+                        />
+                  </div>
+                  <span>Loading Superset Dashboard</span>
+              </div>
+              <div class="g2p_superset_dashboard_toolbar">
+                  <button
+                        class="g2p_superset_dashboard_reload"
+                        title="Reload dashboard"
+                        t-on-click="reloadDashboard"
+                    >
+                      Reload
+                  </button>
+              </div>
+              <iframe
+                    t-att-data-iframe-key="state.iframeKey"
+                    t-att-src="state.iframeUrl"
+                    class="g2p_superset_dashboard_iframe"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    t-on-load="onIframeLoad"
+                    t-on-error="onIframeError"
+                ></iframe>
+          </div>
+      </t>
+
+
+
+  </t>
+</templates>

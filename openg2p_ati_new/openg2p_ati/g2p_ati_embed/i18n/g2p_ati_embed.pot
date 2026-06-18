@@ -1,0 +1,108 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* g2p_ati_embed
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: g2p_ati_embed
+#: model:ir.model.fields,field_description:g2p_ati_embed.field_g2p_ati_embed_config__access_user_ids
+msgid "Access Rights"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.model.fields,field_description:g2p_ati_embed.field_g2p_ati_embed_config__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.model.fields,field_description:g2p_ati_embed.field_g2p_ati_embed_config__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.ui.menu,name:g2p_ati_embed.menu_superset_dashboard_config
+#: model_terms:ir.ui.view,arch_db:g2p_ati_embed.view_superset_dashboard_form
+msgid "Dashboard Configuration"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.model.fields,field_description:g2p_ati_embed.field_g2p_ati_embed_config__name
+msgid "Dashboard Name"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.model.fields,field_description:g2p_ati_embed.field_g2p_ati_embed_config__url
+msgid "Dashboard URL"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.model.fields,field_description:g2p_ati_embed.field_g2p_ati_embed_config__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.actions.client,name:g2p_ati_embed.action_superset_dashboard_embedded
+msgid "Embedded Dashboard"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.model.fields,field_description:g2p_ati_embed.field_g2p_ati_embed_config__id
+msgid "ID"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.model.fields,field_description:g2p_ati_embed.field_g2p_ati_embed_config__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.model.fields,field_description:g2p_ati_embed.field_g2p_ati_embed_config__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: g2p_ati_embed
+#. odoo-javascript
+#: code:addons/g2p_ati_embed/static/src/components/dashboard/superset_dashboard_embedding_templates.xml:0
+#, python-format
+msgid "Loading Superset Dashboard"
+msgstr ""
+
+#. module: g2p_ati_embed
+#. odoo-javascript
+#: code:addons/g2p_ati_embed/static/src/components/dashboard/superset_dashboard_embedding_templates.xml:0
+#, python-format
+msgid "No Dashboards Available"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:res.groups,name:g2p_ati_embed.group_superset_dashboard_admin
+msgid "Superset Dashboard Admin"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.actions.act_window,name:g2p_ati_embed.action_superset_dashboard_config
+#: model:ir.model,name:g2p_ati_embed.model_g2p_ati_embed_config
+msgid "Superset Dashboard Configuration"
+msgstr ""
+
+#. module: g2p_ati_embed
+#: model:ir.ui.menu,name:g2p_ati_embed.menu_superset_dashboard_embedded
+msgid "Superset Dashboards"
+msgstr ""
+
+#. module: g2p_ati_embed
+#. odoo-javascript
+#: code:addons/g2p_ati_embed/static/src/components/dashboard/superset_dashboard_embedding_templates.xml:0
+#, python-format
+msgid ""
+"Try contacting Admin to configure new dashboards or give you access rights."
+msgstr ""
